@@ -1,0 +1,26 @@
+.item {
+    display: inline-block;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: lowercase;
+    color: white;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, 38px);
+  grid-template-areas: "i i i i i";
+
+}
+.icon {
+    grid-area: "i";
+
+}
+
+.social {
+    position: absolute;
+    bottom: 8%;
+    margin: auto;
+
+
+}

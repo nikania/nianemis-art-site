@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "i t"
+    "c f";
+}
+
+.about {
+    grid-area: t;
+}
+
+
+.contact {
+    grid-area: c;
+    margin-left: 20vw;
+}
+
+.photo {
+    grid-area: i;
+    width: 25vw;
+    height: 34vw;
+    object-fit: scale-down;
+    justify-self: center;
+}
+

@@ -2,11 +2,12 @@ import React from "react";
 import style from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 import Logo from '../Logo/Logo';
+import Social from '../Social/Social';
 
 const NavBar = (props) => {
     // debugger;
   return (
-    <div>
+    <div className={style.navbar}>
         <Logo />
         <div className={style.item}>
             <NavLink to="/about" activeClassName={style.active}>
@@ -19,15 +20,21 @@ const NavBar = (props) => {
             </NavLink>
         </div>
         <div className={style.item}>
-            <NavLink to="/cg" activeClassName={style.active}>
-            Computer Graphics
+            <NavLink to="/digital" activeClassName={style.active}>
+            digital
+            </NavLink>
+        </div>
+        <div className={style.item}>
+            <NavLink to="/sketchbook" activeClassName={style.active}>
+            sketchbook
             </NavLink>
         </div>
         <div className={style.item}>
             <NavLink to="/Other" activeClassName={style.active}>
-            Other
+            experiment
             </NavLink>
         </div>
+        <Social />
     </div>
   );
 };

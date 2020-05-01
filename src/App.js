@@ -5,17 +5,19 @@ import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import Drawings from './components/Drawings/Drawings';
 import Other from './components/Other/Other';
-import Cg from './components/CG/CG';
+import Digital from './components/Digital/Digital';
+import Sketchbook from './components/Sketchbook/Sketchbook';
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className="app-wrapper">
         <NavBar />
-        <div>
+        <div className="content">
           <Route path="/about" render={() => <About />} />
           <Route path="/drawings" render={() => <Drawings />} />
-          <Route path="/cg" render={() => <Cg />} />
+          <Route path="/digital" render={() => <Digital />} />
+          <Route path="/sketchbook" render={() => <Sketchbook />} />
           <Route path="/other" render={() => <Other />} />
         </div>
       </div>

@@ -1,0 +1,10 @@
+.app-wrapper {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-areas: "navbar content";
+}
+
+
+.content {
+    grid-area: content;
+}

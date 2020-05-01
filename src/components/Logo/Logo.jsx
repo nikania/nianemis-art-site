@@ -5,7 +5,8 @@ const Logo = (props) => {
     // debugger;
   return (
     <div>
-      <img src="./img/logo.svg" className={style.logo} alt="logo" />
+      <img src="./img/logo_red.svg" className={style.logo} alt="logo" />
+      
     </div>
   );
 };

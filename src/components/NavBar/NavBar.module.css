@@ -1,15 +1,30 @@
+.navbar {
+  grid-area: navbar;
+  background-color: #E29D9D;
+  min-height: 100vh;
+  vertical-align: middle;
+  text-align: center;
+  width: 20vw;
+  position: fixed;
+}
+
 .item {
-    
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+color: white;
 }
 
 a:hover {
-    color: brown;
+    color: #B04646;
 }
 
 .active {
-    color: darkred;
+    color: #B04646;
 }
