@@ -12,7 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
-        <NavBar />
+        <div className="navbar"><NavBar /></div>
+        
         <div className="content">
           <Route path="/about" render={() => <About />} />
           <Route path="/drawings" render={() => <Drawings />} />

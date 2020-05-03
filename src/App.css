@@ -1,10 +1,60 @@
 .app-wrapper {
-    display: grid;
-    grid-template-columns: 20vw 80vw;
-    grid-template-areas: "navbar content";
+
+}
+
+.content {
+
 }
 
 
-.content {
-    grid-area: content;
+@media screen 
+and (max-width:1920px)
+and (min-width:1440px) {
+    .navbar {
+        background-color: #E29D9D;
+        min-height: 100vh;
+        vertical-align: middle;
+        text-align: center;
+        width: 20vw;
+        position: fixed;
+      }}
+
+@media screen 
+and (max-width:1440px)
+and (min-width:1024px) {
+    .navbar {
+        background-color: #E29D9D;
+        min-height: 100vh;
+        vertical-align: middle;
+        text-align: center;
+        width: 25vw;
+        position: fixed;
+      }
+}
+
+@media screen 
+and (max-width:1024px)
+and (min-width:768px) {
+    .navbar {
+        background-color: #E29D9D;
+        min-height: 100vh;
+        vertical-align: middle;
+        text-align: center;
+        width: 33.33vw;
+        position: fixed;
+      }
+}
+
+
+@media screen 
+and (max-width:768px)
+{
+    .navbar {
+        background-color: #E29D9D;
+        min-height: 22vw;
+        vertical-align: middle;
+        text-align: center;
+        width: 100vw;
+        position: fixed;
+      }
 }

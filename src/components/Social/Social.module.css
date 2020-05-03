@@ -8,6 +8,7 @@
 }
 .icons {
   display: grid;
+  align-self: center;
   grid-template-columns: repeat(5, 38px);
   grid-template-areas: "i i i i i";
 
@@ -17,10 +18,35 @@
 
 }
 
-.social {
-    position: absolute;
-    bottom: 8%;
-    margin: auto;
 
 
+@media screen 
+and (max-width:1920px)
+and (min-width:768px) {
+    .social {
+        margin-top: 60vh;
+    }
+    
+    }
+
+@media screen 
+and (max-width:1440px)
+and (min-width:1024px) {
+
+}
+
+
+@media screen 
+and (max-width:1024px)
+and (min-width:768px) {
+
+}
+
+
+@media screen 
+and (max-width:768px) {
+    .social {
+        display: none;
+    }
+    
 }

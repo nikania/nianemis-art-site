@@ -10,19 +10,19 @@ const Drawings = (props) => {
     <div className={style.wrapper}>
       {/* {allDrawings} */}
       <div className={style.item}>
-        <img src="./img/art/colored pencils/img008.jpg" alt="" />
+        <img src="./img/art/colored pencils/img008.jpg" alt="t" />
       </div>
       <div className={style.item}>
-        <img src="./img/art/colored pencils/img008.jpg" alt="" />
+        <img src="./img/art/colored pencils/img008.jpg" alt="t" />
       </div>
       <div className={style.item}>
-        <img src="./img/art/colored pencils/img008.jpg" alt="" />
+        <img src="./img/art/colored pencils/img008.jpg" alt="t" />
       </div>
       <div className={style.item}>
-        <img src="./img/art/colored pencils/img008.jpg" alt="" />
+        <img src="./img/art/colored pencils/img008.jpg" alt="t" />
       </div>
       <div className={style.item}>
-        <img src="./img/art/colored pencils/img008.jpg" alt="" />
+        <img src="./img/art/colored pencils/img008.jpg" alt="t" />
       </div>
       <div className={style.item}>
         <img src="https://localhost:5001/api/art/drawaing/undead5.jpg" alt="some" />

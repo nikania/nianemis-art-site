@@ -1,30 +1,85 @@
-.navbar {
-  grid-area: navbar;
-  background-color: #E29D9D;
-  min-height: 100vh;
-  vertical-align: middle;
-  text-align: center;
-  width: 20vw;
-  position: fixed;
+
+
+@media screen 
+and (max-width:1920px)
+and (min-width:768px) {
+  .item {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  
+  a {
+    text-decoration: none;
+  color: white;
+  }
+  
+  a:hover {
+      color: #B04646;
+  }
+  
+  .active {
+      color: #B04646;
+  }
+
+  .logo {
+    margin: 5%;
+  }
+
+  .burger {
+    display: none;
+  }
+    }
+
+@media screen 
+and (max-width:1440px)
+and (min-width:1024px) {
+
 }
 
-.item {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  text-align: center;
-  font-weight: 300;
-  font-size: 30px;
-  text-transform: uppercase;
+
+@media screen 
+and (max-width:1024px)
+and (min-width:768px) {
+
 }
 
-a {
-  text-decoration: none;
-color: white;
-}
 
-a:hover {
-    color: #B04646;
-}
+@media screen 
+and (max-width:768px) {
+  .navbar {
+    display: grid;
+    grid-template-columns:  82vw 18vw;
+    grid-template-areas: "l b";
+  }
+  .item {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+  color: white;
+  }
+  
+  a:hover {
+      color: #B04646;
+  }
+  
+  .active {
+      color: #B04646;
+  }
 
-.active {
-    color: #B04646;
+  .logo {
+    grid-area: l;
+    margin: 5%;
+  }
+
+  .burger {
+    /* width: 8.3vw; */
+    text-align: center;
+    margin: 5%;
+    grid-area: b;
+  }
 }
