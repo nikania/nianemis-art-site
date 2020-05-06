@@ -48,6 +48,7 @@ and (min-width:768px) {
 and (max-width:768px)
 and (min-width:375px) {
     .wrapper {
+        margin-top: 22vw;
         display: grid;
         grid-template-columns: repeat(2, 50vw);
         grid-template-rows: repeat(2, 50vw);

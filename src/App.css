@@ -50,6 +50,7 @@ and (min-width:768px) {
 and (max-width:768px)
 {
     .navbar {
+      margin-top: 0;
         background-color: #E29D9D;
         min-height: 22vw;
         vertical-align: middle;
