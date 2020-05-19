@@ -5,8 +5,12 @@ const Feedback = (props) => {
   return (
     <div className={style.feedback}>
       <div>Y can write me some brightnings</div>
-      <textarea>your emall@some.com please</textarea>
-      <textarea>Write me something ... something</textarea>
+      <div>
+        <textarea className={style.area1}>your emall@some.com please</textarea>
+      </div>
+      <div>
+        <textarea className={style.area2}>Write me something ... something</textarea>
+      </div>
       <button>send</button>
     </div>
   );

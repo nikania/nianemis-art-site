@@ -7,24 +7,26 @@
     color: white;
 }
 .icons {
-  display: grid;
-  align-self: center;
+    margin-bottom: 1vh;
+  display: inline-grid;
+  align-items: center;
   grid-template-columns: repeat(5, 38px);
   grid-template-areas: "i i i i i";
-
 }
+
 .icon {
     grid-area: "i";
-
 }
 
-
+.social {
+    margin-top: 29vh;
+}
 
 @media screen 
 and (max-width:1920px)
 and (min-width:768px) {
     .social {
-        margin-top: 60vh;
+        
     }
     
     }

@@ -3,7 +3,7 @@
 }
 
 .content {
-
+overflow: hidden;
 }
 
 
@@ -15,9 +15,12 @@ and (min-width:1440px) {
         min-height: 100vh;
         vertical-align: middle;
         text-align: center;
-        width: 20vw;
+        width: 20%;
         position: fixed;
-      }}
+      }
+    
+
+    }
 
 @media screen 
 and (max-width:1440px)
@@ -27,7 +30,7 @@ and (min-width:1024px) {
         min-height: 100vh;
         vertical-align: middle;
         text-align: center;
-        width: 25vw;
+        width: 25%;
         position: fixed;
       }
 }
@@ -38,9 +41,8 @@ and (min-width:768px) {
     .navbar {
         background-color: #E29D9D;
         min-height: 100vh;
-        vertical-align: middle;
         text-align: center;
-        width: 33.33vw;
+        width: 33.33%;
         position: fixed;
       }
 }
@@ -50,12 +52,9 @@ and (min-width:768px) {
 and (max-width:768px)
 {
     .navbar {
-      margin-top: 0;
         background-color: #E29D9D;
-        min-height: 22vw;
-        vertical-align: middle;
-        text-align: center;
-        width: 100vw;
-        position: fixed;
+        min-height: 100%;
+        width: 100%;
+        align-items: center;
       }
 }

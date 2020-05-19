@@ -10,7 +10,6 @@ const NavBar = (props) => {
       <div className={style.logo}>
         <img src="./img/logo_red.svg" alt="logo" />
       </div>
-
       <div className={style.burger}>
         <img src="./img/burger.svg" alt="menu" />
       </div>
@@ -39,6 +38,7 @@ const NavBar = (props) => {
           experiment
         </NavLink>
       </div>
+      
       <Social />
     </div>
   );

@@ -1,4 +1,15 @@
 body {
     margin: 0;
     height: 100%;
+    box-sizing: padding-box;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    overflow-y: scroll;
+}
+
+@media screen 
+and (max-width:768px) {
+    body {
+        overflow-y: auto;
+    }
+    
 }

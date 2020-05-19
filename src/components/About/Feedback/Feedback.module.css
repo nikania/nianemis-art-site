@@ -1,5 +1,54 @@
-
 .feedback {
-    grid-area: f;
-    margin-top: -10vw;
+  grid-area: f;
+  margin-top: -10vw;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+textarea {
+    width: 30vw;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px black solid;
+
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.area1 {
+    height: 30px;
+}
+
+.area2 {
+    height: 70px;
+}
+
+button {
+    border: 1px black solid;
+    background-color: white;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+  
+    /* identical to box height */
+    text-transform: uppercase;
+
+    padding: 10px 70px;
+    margin: 10px 0;
+}
+
+button:hover {
+    font-weight: 400;
+    border: 2px black solid;
 }
