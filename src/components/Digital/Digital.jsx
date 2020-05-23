@@ -20,7 +20,7 @@ const Digital = (props) => {
       <div className={style.item}>
         <img
           // className={style.imagestyle}
-          src={"http://192.168.0.128:5000/img/digital/" + d}
+          src={d +"/384"}
           alt="drawing"
         />
       </div>

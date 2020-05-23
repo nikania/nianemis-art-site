@@ -6,6 +6,19 @@
 overflow: hidden;
 }
 
+@media screen 
+and (min-width:1921px) {
+    .navbar {
+        background-color: #E29D9D;
+        min-height: 100vh;
+        vertical-align: middle;
+        text-align: center;
+        width: 16.6%;
+        position: fixed;
+      }
+    
+
+    }
 
 @media screen 
 and (max-width:1920px)

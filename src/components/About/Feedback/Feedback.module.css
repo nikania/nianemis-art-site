@@ -32,7 +32,7 @@ textarea {
     height: 70px;
 }
 
-button {
+.feedback button {
     border: 1px black solid;
     background-color: white;
     font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -48,7 +48,7 @@ button {
     margin: 10px 0;
 }
 
-button:hover {
+.feedback button:hover {
     font-weight: 400;
     border: 2px black solid;
 }

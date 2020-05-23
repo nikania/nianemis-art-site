@@ -1,3 +1,5 @@
-table {
-    margin: 0 50%;
+.wrapper {
+    width: 98vw;
+    height: 98vh;
+    background-color: #E29D9D;
 }

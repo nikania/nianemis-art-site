@@ -1,54 +1,85 @@
-.item {
-    /* display: inline-block; */
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    text-transform: lowercase;
-    color: white;
+.item,
+.item:hover {
+  /* display: inline-block; */
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: lowercase;
+  color: white;
 }
 .icons {
-    margin-bottom: 1vh;
-  display: inline-grid;
-  align-items: center;
-  grid-template-columns: repeat(5, 38px);
-  grid-template-areas: "i i i i i";
+  margin-bottom: 1vh;
+  display: inline-block;
+  /* align-items: center; */
+  vertical-align: middle;
+  /* grid-template-columns: repeat(5, 38px); */
+  /* grid-template-areas: "i i i i i"; */
 }
 
-.icon {
-    grid-area: "i";
+.icons a {
+    display: inline-block;
+    vertical-align: middle;
+
+    text-align: center;
+    /* margin: auto; */
+}
+
+.icons a img {
+    display: inline-block;
+    vertical-align: middle;
+
+    text-align: center;
+    margin: 8px;
+    /* margin: auto; */
 }
 
 .social {
-    margin-top: 29vh;
+  margin-top: 32vh;
 }
 
-@media screen 
-and (max-width:1920px)
-and (min-width:768px) {
-    .social {
-        
-    }
-    
-    }
-
-@media screen 
-and (max-width:1440px)
-and (min-width:1024px) {
-
+@media screen and (min-width: 1921px) {
+  .item {
+    font-size: 100%;
+  }
+  .icons {
+    margin-bottom: 1vh;
+    display: inline-grid;
+    align-items: center;
+    grid-template-columns: repeat(5, 38px);
+    grid-template-areas: "i i i i i";
+  }
 }
 
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+  .social {
 
-@media screen 
-and (max-width:1024px)
-and (min-width:768px) {
-
+  }
 }
 
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .item,
+  .item:hover {
+    font-size: 16px;
+  }
+  .social {
+    margin-top: 35vh;
+  }
+}
 
-@media screen 
-and (max-width:768px) {
-    .social {
-        display: none;
-    }
-    
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .item,
+  .item:hover {
+    font-size: 16px;
+  }
+  .social {
+    margin-top: 37vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .social {
+    margin-top: 7vh;
+    padding-bottom: 5vh;
+    /* text-align: center; */
+  }
 }

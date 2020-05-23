@@ -32,6 +32,17 @@
   border: 5px solid #e29d9d;
 }
 
+@media screen and (min-width: 1921px) {
+  .wrapper {
+    margin-left: 16.6%;
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-gap: 10px; */
+    /* grid-template-rows: repeat(4, 20vw); */
+  }
+}
+
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
   .wrapper {
     margin-left: 20%;

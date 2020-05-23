@@ -1,86 +1,124 @@
-
-
-@media screen 
-and (max-width:1920px)
-and (min-width:768px) {
+@media screen and (min-width: 1921px) {
   .item {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 230%;
     text-transform: uppercase;
     margin: 5vh 0;
   }
-  
+
   a {
     text-decoration: none;
-  color: white;
+    color: white;
   }
-  
+
   a:hover {
-      color: #B04646;
+    color: #b04646;
   }
-  
+
   .active {
-      color: #B04646;
+    color: #b04646;
   }
 
   .logo {
-    margin: 5vh 5% 8vh;
+    margin: 5vh 15% 8vh;
   }
 
   .burger {
     display: none;
   }
-    }
-
-@media screen 
-and (max-width:1440px)
-and (min-width:1024px) {
-
 }
 
-
-@media screen 
-and (max-width:1024px)
-and (min-width:768px) {
-
+.item {
+  font-size: 30px;
 }
 
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+  .item {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-weight: 300;
+    /* font-size: 30px; */
+    text-transform: uppercase;
+    margin: 4vh 0;
+  }
 
-@media screen 
-and (max-width:768px) {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: #b04646;
+  }
+
+  .active {
+    color: #b04646;
+  }
+
+  .logo {
+    margin: 5vh 10% 5vh;
+  }
+
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .item {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .item {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .navbar {
-    
     margin-left: 2%;
     /* display: inline-grid;
     grid-template-columns:  80% 15%;
     grid-template-areas: "l b";
     align-items: center;
     overflow-x: hidden; */
-
   }
   .item {
     display: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /* text-align: center; */
+    font-weight: 300;
+    /* font-size: 30px; */
+    text-transform: uppercase;
+    margin: 4vh 0;
+    margin-left: 5%;
   }
-  
+
   a {
     text-decoration: none;
-  color: white;
+    color: white;
   }
-  
+
   a:hover {
-      color: #B04646;
+    color: #b04646;
   }
-  
+
   .active {
-      color: #B04646;
+    color: #b04646;
   }
 
   .logo {
-    margin-top: 0.5%;
+    /* margin-top: 0.5%; */
     display: inline-block;
-    width: 80%;
+    width: 50%;
+    margin: 0%;
+    margin-right: 13%;
+    margin-top: 1%;
+    margin-left: 5%;
     /* display: block; */
     /* grid-area: l; */
     /* margin: auto 5%; */
@@ -94,8 +132,8 @@ and (max-width:768px) {
     /* grid-area: b; */
   }
   .burger img {
-    width: 80%;
-    margin-left: 20%;
-    margin-top: 15%;
+    width: 40%;
+    margin-left: 100%;
+    margin-top: 20%;
   }
 }
